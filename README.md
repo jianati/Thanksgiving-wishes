@@ -67,24 +67,24 @@
     填充:16像素35像素
     文字-装饰:无；
     过渡:所有0.6s三次立方-贝塞尔(0.175，0.885，0.32，1.275)；
-            box-shadow: 0 12px 24px rgba(155, 105, 55, 0.45), inset 7px 14px 28px rgba(255, 215, 170, 0.65);
-    变换样式:保留-3d；
+    方框阴影:0 12px 24px rgba(155，105，55，0.45)，内嵌7px 14px 28px rgba(255，215，170，0.65)；
+    变换样式：保留-3d；
     视角:800像素
     位置:相对；
     z指数:999;
         }
 
     。触发btn:悬停{
-    transform:translate y(-5px)rotate x(5 deg)；
+    变换:平移y(-5px)旋转x(5度)；
     box-shadow:0 17px 34px rgbapx rgba(120，70，27，0.75)；
     字母间距:01px
         }
 
     。触发器-btn:活动{
-    transform:translate y(2px)；
+    transform:平移y(2px)；
         }
 
-        .footer-text {
+    。页脚-文本{
             margin-top: 80px;
     不透明度:0.85；
     字体大小:13px
@@ -101,24 +101,24 @@
             background: rgba(105, 52, 23, 0.92);
             backdrop-filter: blur(10px);
             display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 2000;
-            visibility: hidden;
-            opacity: 0;
-            transition: all 400ms ease-in-out;
+    justify-content:居中；
+    对齐-项目:居中；
+    z指数:2000；
+    可见性:隐藏；
+    不透明度:0；
+    过渡:所有400毫秒缓入缓出；
 -出局；
         }
 
     。模态-容器{
-    背景:线性梯度(135度，#FFEBCD，# fff 8dc)；
+    背景：线性梯度(135度、#FFEBCD、# fff 8dc)；
     边框半径:26px
     方框阴影:
     0 38px 76px rgba(165，107，49，0.48)，
-                inset 11px 21px 41px rgba(250, 235, 205, 95),
+    插图11px 21px 41px rgba(250，235，205，95)，
     0 46px 91px rgba(150，94，44，72)；
     填充:42px 33px
-    最小高度:310px
+    最小高度:310像素
     宽度:88%；
     最大宽度:520像素；
     位置:相对；
