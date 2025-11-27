@@ -1,93 +1,93 @@
 #感恩节祝福
 爱
 
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>感恩节祝福</title>
-    <link rel=" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all/css/all.min.css">
-    <style>
+<!文档类型html >
+<超文本标记语言语言="zh-CN " >
+<头>
+<自指的字符集="UTF八号">
+    <自指的名字="视窗" 内容=宽度=设备宽度，初始比例=1.0>
+    <标题>感恩节祝福</标题>
+<环能量损耗率=" rel= "样式表" href = " https://cdnjs。云层耀斑。com/Ajax/libs/font-awesome/6。4 .0/CSS/all/CSS/all。量滴CSS " >
+    <风格>
         * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial Rounded MT Bold', 'Segoe UI', sans-serif;
+            边缘: 0;
+            填料: 0;
+            盒子尺寸: 边框;
+字体系列:Arial圆形MT Bold '，' Segoe UI '，无衬线字体；
         }
 
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(to right, #f7c59f, #ff9e6d);
-            color: #333;
-            overflow-x: hidden;
-            padding: 20px;
+    正文{
+    显示器:flex
+    对齐-内容:居中；
+    对齐-项目:居中；
+    最小高度:100vh
+    背景：线性渐变（向右、#f7c59f、# ff 9e 6d)；
+    颜色:# 333；
+    溢出-x:隐藏；
+    填充:20px
         }
 
-        .container {
-            max-width: 500px;
-            width: 90%;
-            text-align: center;
-            animation: fadeIn 1s ease-out;
+    。容器{
+    最大宽度:500像素；
+    宽度:90%；
+    文本对齐:居中；
+    动画:淡入1s渐出；
         }
 
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            color: #8B4513;
-            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.25);
-            letter-spacing: -1px;
+    h1 {
+    font-size:3r em；
+    边距-底部:10px
+    颜色:# 8B4513
+    文-影:2px 2px 4px rgba(139，69，19，0.25)；
+    字母间距:-1px；
         }
 
-        p.subtitle {
-            font-size: 18px;
-            margin-bottom: 30px;
-            color: #654321;
+    p .副标题{
+    字体大小:18px
+    边距-底部:30px
+    颜色:# 654321；
         }
 
-        .emoji-row {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-bottom: 40px;
-            font-size: 36px;
+    。表情符号街
+    显示器:flex
+    对齐-内容:居中；
+    差距:15px
+    边距-底部:40px
+    字体大小:36px
         }
 
-        .trigger-btn {
-            background: linear-gradient(to right, #8B4513, #CD853F);
-            border: none;
-            border-radius: 60px;
-            color: white;
-            cursor: pointer;
-            font-size: 22px;
-            font-weight: bold;
-            padding: 16px 35px;
-            text-decoration: none;
-            transition: all 0.6s cubics cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    。触发器-btn {
+    背景:线性渐变(向右，#8B4513，# CD 853 f)；
+    边框:无；
+    边框半径:60px
+    颜色:白色；
+    光标:指针；
+    字体大小:22px
+    字体粗细:粗体；
+    填充:16像素35像素
+    文字-装饰:无；
+    过渡:所有0.6s三次立方-贝塞尔(0.175，0.885，0.32，1.275)；
             box-shadow: 0 12px 24px rgba(155, 105, 55, 0.45), inset 7px 14px 28px rgba(255, 215, 170, 0.65);
-            transform-style: preserve-3d;
-            perspective: 800px;
-            position: relative;
-            z-index: 999;
+    变换样式:保留-3d；
+    视角:800像素
+    位置:相对；
+    z指数:999;
         }
 
-        .trigger-btn:hover {
-            transform: translateY(-5px) rotate rotateX(5deg);
-            box-shadow: 0 17px 34px rgbapx rgba(120, 70, 27, 0.75);
-            letter-spacing: 01px;
+    。触发btn:悬停{
+    transform:translate y(-5px)rotate x(5 deg)；
+    box-shadow:0 17px 34px rgbapx rgba(120，70，27，0.75)；
+    字母间距:01px
         }
 
-        .trigger-btn:active {
-            transform: translateY(2px);
+    。触发器-btn:活动{
+    transform:translate y(2px)；
         }
 
         .footer-text {
             margin-top: 80px;
-            opacity: 0.85;
-            font-size: 13px;
+    不透明度:0.85；
+    字体大小:13px
             color: #996633;
         }
 
@@ -107,14 +107,14 @@
             visibility: hidden;
             opacity: 0;
             transition: all 400ms ease-in-out;
--out;
+-出局；
         }
 
-        .modal-container {
-            background: linear-gradient(135deg, #FFEBCD, #FFF8DC);
-            border-radius: 26px;
-            box-shadow: 
-                0 38px 76px rgba(165, 107, 49, 0.48),
+    。模态-容器{
+    背景:线性梯度(135度，#FFEBCD，# fff 8dc)；
+    边框半径:26px
+    方框阴影:
+    0 38px 76px rgba(165，107，49，0.48)，
                 inset 11px 21px 41px rgba(250, 235, 205, 95),
     0 46px 91px rgba(150，94，44，72)；
     填充:42px 33px
@@ -314,13 +314,13 @@
         ];
     // DOM元素
     const openModalBtn =文件getelementbyid(" openModalBtn ")；
-    const closeModalBtn = 文件。getelementbyid("closeModalBtn");
+    const closeModalBtn =文件getelementbyid(" closeModalBtn ")；
     显示器:flex
-    justify-content:居中；
-    const消息显示=文档。getelementbyid("消息显示")；
-    过渡:全部380ms三次贝塞尔(0.645，0.045，353，140)；
+    对齐-内容:居中；
+    常数消息显示=文档getelementbyid(“消息显示");
+    过渡：全部380毫秒三次贝塞尔(0.645,0.045,353,140);
     轮廓:2px虚线透明；
-    函数getRandomMessage(current index){
+    函数getRandomMessage(当前索引){
     让新指数
     做{
     颜色:# D2691E
